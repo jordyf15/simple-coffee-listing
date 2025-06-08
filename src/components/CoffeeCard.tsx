@@ -32,6 +32,7 @@ const CoffeeCard = ({ coffee }: CoffeeCardProps) => {
         mt="0 !important"
         borderRadius="15px"
         width={1}
+        alt={coffee.name}
         src={coffee.image}
       />
       <Stack alignItems="center" justifyContent="space-between" direction="row">

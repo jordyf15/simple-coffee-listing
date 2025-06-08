@@ -93,6 +93,7 @@ function App() {
             position="absolute"
             top={0}
             left={0}
+            alt="coffee shop with lots of people inside it"
           />
           <Stack
             bgcolor="background.paper"
@@ -116,6 +117,7 @@ function App() {
                 top="-40px"
                 right="-20px"
                 width={{ xs: "200px", sm: "250px" }}
+                alt="a brown line vector for decoration"
               />
               <Typography
                 color="text.primary"
