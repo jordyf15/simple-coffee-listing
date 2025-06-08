@@ -174,7 +174,7 @@ function App() {
               </Box>
             )}
             {requestStatus === "success" && coffees.length > 0 && (
-              <Grid spacing={4} container>
+              <Grid pt={3} spacing={4} container>
                 {displayedCoffees.map((coffee) => (
                   <Grid
                     alignItems="center"
